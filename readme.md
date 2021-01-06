@@ -49,9 +49,9 @@ and many more features like Udemy.
 	1) Dashboard       ---  Main Dashboard<br />
 	2) Create Course   ---  Instructor can create course in this section.<br />
 	3) Courses		   ---	All the Courses of instructor will be avaliable here, from here instructor can ...<br />
-							a) Edit Course.<br />
-							b) Add Lectures(Videos) and Sections of the Course.<br />
-							c) Edit Lecture Details.<br />
+	&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	a) Edit Course.<br />
+	&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	b) Add Lectures(Videos) and Sections of the Course.<br />
+	&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	c) Edit Lecture Details.<br />
 	4) Students        ---  All the students basic details who are enrolled for this instructor courses.<br />
 	5) Payments		   ---  Payment details of the students (like payment id, transaction success/failure, name of the student etc...).<br />
 	6) Settings		   ---  All the account settings like name, email, password, description and profile pic (here instructor can change there details also).<br />
@@ -78,9 +78,9 @@ Payments :
 	3) Settings		   ---  All the account settings like name, email, password, description and profile pic (here user can change there details also).<br />
 	4) Close Account   ---  If want user can close there account permantly by checking the mark and clicking the delete account button.<br />
 	5) <strong>Videos Section</strong> --- when a user want to watch course lectures then can <br />
-	&nbsp;	&nbsp;&nbsp;nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	a)Go to there dashboard where they can find there courses.<br />
-	&nbsp;	&nbsp;&nbsp;nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	b)Click on the course then they will be redirected to videos section.<br />
-	&nbsp;	&nbsp;&nbsp;nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	c) Here they can find there course video lectures section wise.<br />
+	&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	a)Go to there dashboard where they can find there courses.<br />
+	&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	b)Click on the course then they will be redirected to videos section.<br />
+	&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	c) Here they can find there course video lectures section wise.<br />
 	
 ==> User can search the courses and purchase the course they are willing to learn by just searching the course in search bar or exploring courses by category wise in the category pages.
 
