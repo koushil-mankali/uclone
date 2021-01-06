@@ -32,10 +32,10 @@ and many more features like Udemy.
 
 <h3>Navigate :</h3> 
 <ul>
-	<li><a href="instructors_features">Instructors Features</a></li>
-	<li><a href="user_features">Users Features</a></li>
-	<li><a href="security_performance">SECURITY and PERFORMENCE</a></li>
-	<li><a href="how_to_use">How to use this Project</a></li>
+	<li><a href="#instructors_features">Instructors Features</a></li>
+	<li><a href="#user_features">Users Features</a></li>
+	<li><a href="#security_performance">SECURITY and PERFORMENCE</a></li>
+	<li><a href="#how_to_use">How to use this Project</a></li>
 </ul>
 
 <h2>Home Page :</h2>
