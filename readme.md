@@ -8,9 +8,9 @@ About the Uclone (Project):
 
 <h2>Main Features :</h2> 
 
--> Integrated with <strong>Paytm Payment Gateway</strong> for Purchaising courses.
+-> Integrated with <strong>Paytm Payment Gateway</strong> for Purchasing courses.
 
--> Integrated <strong>SMTP</strong> for User and Instructor signup <strong>EMail Conformation(account creation)</strong> and also for <strong>OTP conformation</strong> for Password reset/change.
+-> Integrated <strong>SMTP</strong> for User and Instructor signup <strong>E-Mail Conformation(account creation)</strong> and also for <strong>OTP conformation</strong> for Password reset/change.
 
 -> <strong>Comment</strong> and Course <strong>Rating System</strong>.
 
@@ -129,7 +129,7 @@ database: MySQL.
 
 ->First you have need to do some changes in the file / add some details which are mentioned below.<br />
 
-1)As this project has EMail conformation feature which uses SMTP you need a mail account so you have to add you'r mail id details in required file to run SMTP feature.
+1)As this project has E-Mail conformation feature which uses SMTP you need a mail account so you have to add you'r mail id details in required file to run SMTP feature.
 
 ->Add you'r email account details in 
 
