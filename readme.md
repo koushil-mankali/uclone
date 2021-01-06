@@ -6,7 +6,7 @@ View the Video Demonstration of the Project here :
 
 About the Uclone (Project):
 
-Main Features : 
+<h2>Main Features :</h2> 
 
 -> Integrated with <strong>Paytm Payment Gateway</strong> for Purchaising courses.
 
@@ -30,7 +30,7 @@ Main Features :
 
 and many more features like Udemy.
 
-Navigate : 
+<h3>Navigate :</h3> 
 <ul>
 	<li><a href="instructors_features">Instructors Features</a></li>
 	<li><a href="user_features">Users Features</a></li>
@@ -38,12 +38,12 @@ Navigate :
 	<li><a href="how_to_use">How to use this Project</a></li>
 </ul>
 
-Home Page:
+<h2>Home Page :</h2>
 
 <img src="images/git/one.png">
 
 <div id="instructors_features"></div>
-Instructors Features :
+<h2>Instructors Features :</h2>
 
 -> Instructor has there own dashboard where they get options like :
 	1) Dashboard       ---  Main Dashboard
@@ -70,7 +70,7 @@ Payments :
 <img src="images/git/six.png">
 
 <div id="user_features"></div>
-Users Features :
+<h2>Users Features :</h2>
 	
 -> User has there own dashboard where they get options like :
 	1) Dashboard       ---  Main Dashboard where all the enrolled courses will be there.
@@ -97,7 +97,7 @@ Settings :
 <img src="images/git/nine.png">
 
 <div i<div id="security_performance"></div>
-SECURITY and PERFORMENCE: 
+<h2>SECURITY and PERFORMENCE :</h2> 
 
 -> Used tokens for Remember Me functionality instead of storing passwords in the user browser cookies for better security.(for detailed info click here <a href='#remember_me'>Go to Remember Me Functionality Info</a>)
 
@@ -111,7 +111,7 @@ SECURITY and PERFORMENCE:
 
 
 
-<div id="remember_me">Remember Me Functionality Info:</div>
+<div id="remember_me"><h2>Remember Me Functionality Info :</h2></div>
 
 ==> Here for Remember Me functionality while login we have used tokens which will be stroed in the database and also in the user browser cookies, whenever a user login and checks the remember me box a token will be generated for the first time and stored in the database also in the browser cookie and next time when a user trys to login from the same browser and if there is a token avaliable in the browser cookie then it will be compaired with token in the database if it matches user will be logged in and a new token is generated and this new token will be replaced with old token in the database and browser cookie in case if the token didn't match then user will not be allowed to login unless they enter the password.
 	
@@ -125,7 +125,7 @@ backend : PHP.
 database: MySQL.
 
 <div id="how_to_use"></div>
-How to use this Project:
+<h2>How to use this Project :</h2>
 
 ->First you have need to do some changes in the file / add some details which are mentioned below.
 
