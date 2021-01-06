@@ -1,0 +1,411 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'SF Pro Text','BlinkMacSystemFont','Roboto','Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+}
+/* --------------------- Universal Settings Start ------------------------  */
+:root{
+    --white:#FFFFFF;
+    --light-white:#FBFBF8;
+    --title-color:#3C3B37;
+    --text-color:#73726c;
+    --btn-clr:#0f7c90;
+    --btn-hover-clr:#094C59;
+    --tomato:#FF6347;
+    --stblack:#1E1E1C;
+    --cream:#dcdacb;
+    --light-gold:#eb8a2f;
+    --cream2:#f1f1ea;
+}
+a{
+    text-decoration:none;
+    color:#8ed1dc;
+}
+li{
+    list-style: none;
+}
+.bst_seller{
+    padding:4px;
+    background-color: #FFE799;
+    color:#593d00;
+    font-weight:bold;
+    border-radius:5px;
+}
+.hr{
+    border:0.1px solid var(--text-color);
+}
+body{
+    background-color: var(--cream2);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.hide{
+    display:none;
+}
+.show{
+    display: block;
+}
+.msg{
+    width:100%;
+    padding:5px;
+    margin-top:4px;
+    background-color: green;
+    color:var(--white);
+    border-radius:5px;
+}
+.err{
+    width:100%;
+    padding:5px;
+    margin-top:4px;
+    background-color: red;
+    color:var(--white);
+    border-radius:5px;
+}
+/* --------------------- Universal Settings End ------------------------  */
+
+/* ---------------------  My Courses Section Start ------------------------  */
+
+.section1{
+    width:80%;
+    min-height:50vh;
+    height:auto;
+    margin:10px auto;
+}
+.sec1_title{
+    color:var(--title-color);
+    font-weight:bold;
+    font-size:2rem;
+    margin:10px 0;
+}
+.my_courses{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.my_course{
+    width:250px;
+    min-height:275px;
+    height:auto;
+    box-shadow:1px 1px 5px 2px #ddd;
+    border-radius:5px;
+    margin:10px;
+    cursor: pointer;
+}
+.sec_img{
+    width:100%;
+    height:55%;
+}
+.sec_crs_img{
+    width:100%;
+    height:100%;
+    border-radius:5px;
+}
+.sec_bdy{
+    width:100%;
+    height:50%;
+    padding:5px;
+}
+.sec_crs_title{
+    color:var(--title-color);
+    margin:6px 0;
+    font-weight:700;
+    font-size:1.5rem;
+}
+.sec_crs_author{
+    color:var(--text-color);
+    font-size:1.3rem;
+    font-weight:600;
+}
+/* --------------------- My Courses Section End ------------------------  */
+
+
+/* --------------------- Course Page Section Start ------------------------  */
+.stu_crs_pg{
+    width:100%;
+    display: flex;
+}
+.crs_vid{
+    width:75%;
+}
+.crs_vid_ply{
+    width:100%;
+}
+.vid_res{
+    width:100%;
+    background-color: var(--cream);
+    border:1px solid var(--text-color);
+}
+.vid_res_sum{
+    font-size:1.4rem;
+    font-weight:700;
+    padding:10px;
+    outline:none;
+    cursor: pointer;
+}
+
+.crs_lst{
+    width:25%;
+}
+.crs_lst_ttl{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    font-weight:700;
+    font-size:1.4rem;
+    padding-left:20px;
+    box-shadow:0px 2px 3px #ddd;
+}
+.crs_ply_det{
+    cursor: pointer;
+    border:0.5px solid rgb(170, 157, 157);
+}
+.crs_ply_sum{
+    padding:20px 10px;
+    border:none;
+    outline:none;
+    font-size:1.3rem;
+    font-weight:600;
+    background-color: var(--cream);
+}
+.crs_ply_li_a{
+    color:black;
+}
+.crs_ply_li{
+    padding:10px 5px;
+    font-size:1.2rem;
+}
+.vd_plg{
+    border:1px solid black;
+    background-color:skyblue;
+}
+
+/* --------------------- Course Page Section End ------------------------  */
+
+
+/* --------------------- Settings Section Start ------------------------  */
+.stu_acc_set{
+    min-height:750px;
+    height:auto;
+    margin:5%;
+    border:2px solid #ddd;
+    display: flex;
+}
+.stu_acc_set_l{
+    width:20%;
+    border-right:2px solid #ddd;
+}
+.stu_acc_pro{
+    height:200px;
+    margin-bottom:10px;   
+}
+.stu_acc_img_div{
+    width:100%;
+    height:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stu_acc_img{
+    width:50%;
+    height:80%;
+    border-radius:50%;
+}
+.stu_acc_nm{
+    font-weight:700;
+    font-size:1.3rem;
+    text-align: center;
+}
+
+.stu_acc_set_r{
+    width:80%;
+}
+.stu_acc_set_ttl{
+    font-size:2rem;
+    font-weight:700;
+    text-align:center;
+    line-height:80px;
+    height:80px;
+    width:100%;
+    border-bottom:2px solid #ddd;
+}
+.stu_set_ul{
+    display: flex;
+    flex-direction: column;
+}
+.stu_set_a{
+    font-size:1.2rem;
+    padding:3px 5px;
+}
+.stu_set_a_act{
+    background-color:var(--text-color);
+    color:var(--light-white);
+}
+
+.stu_acc_set_bdy{
+    margin:20px 0;
+}
+.stu_acc_f{
+    width:70%;
+    margin:10px auto;
+}
+.stu_f_inp{
+    width:100%;
+    padding:5px;
+    font-size:1.2rem;
+    outline:none;
+    border:1px solid #ddd;
+}
+
+.stu_acc_set_sbtn{
+    font-size:1.2rem;
+    font-weight:650;
+    background-color:crimson;
+    color:var(--white);
+    border:none;
+    outline:none;
+    float:right;
+    padding:5px;
+    margin-right:5%;
+    cursor: pointer;
+    border-radius:5px;
+}
+.cls_acc_bdy{
+    width:70%;
+    margin:5% auto;
+}
+/* --------------------- Settings Section End ------------------------  */
+
+
+
+
+
+/* Student Header Start  */
+header{
+    width:100%;
+    height:60px;
+}
+.stu_header{
+    width:100%;
+    height:100%;
+    padding:0 3%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow:1px 1px 5px 3px #ddd;
+}
+.web_ttl{
+    font-weight:700;
+    font-size:2rem;
+    cursor: pointer;
+    color:black;
+}
+.myacc{
+    margin-left:10px;
+    cursor: pointer;
+    position: relative;
+    font-weight:700;
+}
+.u_profile{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+.myacc_dropdown{
+    position: absolute;
+    width:200px;
+    background: var(--white);
+    z-index: 5;
+    right:-40px;
+    top:45px;
+    display: none;
+    padding:5% 10%;
+    z-index:600000;
+}
+.myacc:hover .myacc_dropdown{
+    display: block;
+}
+.dropdown_li{
+margin:5px;
+}
+.dropdown_li:hover a{
+    color:var(--btn-hover-clr) !important;
+}
+
+
+
+/* Student Header End  */
+
+/* Students Section Start  */
+
+.student_details{
+    margin:5%;
+}
+.stu_d_h{
+    margin-bottom:20px;
+    font-size:1.5rem;
+    font-weight:bold;
+}
+.stu_d_tb th, td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.stu_d_tb{
+    border-collapse: collapse;
+    width: 100%;
+}
+.stu_d_th{
+    background-color: var(--cream);
+}
+.stu_d_td{
+    text-align:center;
+    background-color: var(--cream2);
+}
+#stu_d_tb tr:nth-child(even){background-color: #f2f2f2;}
+
+#stu_d_tb tr:hover {background-color: #ddd;}
+
+/* Students Section End  */
+
+
+/* --------------------- Footer Section Start ------------------------  */
+.stu_footer{
+    margin-top:auto;
+    width:100%;
+    height:50px;
+    background-color:var(--stblack);
+    line-height: 50px;
+    text-align: center;
+}
+.stu_footer_p{
+    color:var(--white);
+}
+/* --------------------- Footer Section End ------------------------  */
+
+
+/*----------------------------------------- Responsive Design Settings Start ------------------------------ */
+
+
+
+@media (max-width: 768px) {
+
+.stu_crs_pg{
+    width:100%;
+    display: block;
+}
+.crs_vid{
+    width:100%;
+
+}
+.crs_lst{
+    width:100%;
+ 
+}
+
+}
+ /*----------------------------------------- Responsive Design Settings End ------------------------------ */

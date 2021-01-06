@@ -1,0 +1,848 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'SF Pro Text','BlinkMacSystemFont','Roboto','Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+}
+/* --------------------- Universal Settings Start ------------------------  */
+:root{
+    --white:#FFFFFF;
+    --light-white:#FBFBF8;
+    --title-color:#3C3B37;
+    --text-color:#73726c;
+    --btn-clr:#0f7c90;
+    --btn-hover-clr:#094C59;
+    --tomato:#FF6347;
+    --stblack:#1E1E1C;
+    --cream:#dcdacb;
+    --light-gold:#eb8a2f;
+    --cream2:#f1f1ea;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style: none;
+}
+.inst_ss{
+    width:100%;
+    display: flex;
+}
+.hide{
+    display:none;
+}
+.show{
+    display: block;
+}
+.msg{
+    width:100%;
+    padding:5px;
+    margin-top:4px;
+    background-color: green;
+    color:var(--white);
+    border-radius:5px;
+}
+.err{
+    width:100%;
+    padding:5px;
+    margin-top:4px;
+    background-color: red;
+    color:var(--white);
+    border-radius:5px;
+}
+.w-50{
+    width:50%;
+}
+.w-100{
+    width:100%;
+}
+.nodata{
+    display:flex;
+    justify-content: center;
+    font-size:2rem;
+    font-weight:700;
+}
+/* --------------------- Universal Settings End ------------------------  */
+
+/* Login Modal Start  */
+
+.instructor_login{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    background-color:crimson;
+}
+.login_modal{
+    width:350px;
+    height:450px;
+    margin:auto;
+    padding:2%;
+    background-color:var(--white);
+    box-shadow:0px 0px 3px 2px #ddd;
+}
+.login_ttl{
+    width:100%;
+    margin:5% 0;
+    text-align:center;
+    color:var(--title-color);
+    font-weight:bold;
+    font-size:1.4rem;
+}
+.login_lbl{
+    display:block;
+    margin:1% 0;
+    font-size:1.3rem;
+}
+.lg_inpt{
+    width:100%;
+    padding:1% 30px;
+    font-size:1.2rem;
+}
+
+.lg_btn{
+    width:100%;
+    margin:5% 0;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+#llogin{
+    margin:5%;
+    padding:2% 5%;
+    display:flex;
+    justify-content: flex-end;
+    background-color: crimson;
+    border:none;
+    outline:none;
+    font-weight:bold;
+    color:var(--white);
+    cursor: pointer;
+}
+.cancel_btn{
+    margin:5% 1%;
+    padding:2% 5%;
+    border:none;
+    outline:none;
+    font-weight:bold;
+    cursor: pointer;
+    color:crimson;
+    background-color:#ddd;
+}
+.lg_fr{
+    width:100%;
+    text-align:center;
+}
+.lg_sg{
+    width:100%;
+    margin:5% 0;
+    text-align:center;
+}
+.lg_sg a{
+    font-weight:bold;
+}
+#lemail,#lpass{
+    position: relative;
+}
+.int_lemail,.int_lpass{
+    position: absolute;
+    margin:0.4%;
+    z-index:50;
+}
+/* Login Modal End */
+
+
+/* Signup Modal Start  */
+
+.signup_modal{
+    width:350px;
+    height:500px;
+    margin:auto;
+    padding:2%;
+    background-color:var(--white);
+    box-shadow:0px 0px 3px 2px #ddd;
+}
+.signup_ttl{
+    width:100%;
+    margin:5% 0;
+    text-align:center;
+    color:var(--title-color);
+    font-weight:bold;
+    font-size:1.4rem;
+}
+.signup_lbl{
+    display:block;
+    margin:1% 0;
+    font-size:1.3rem;
+}
+.sg_inpt{
+    width:100%;
+    padding:1% 30px;
+    font-size:1.2rem;
+}
+.sg_btn{
+    width:100%;
+    margin:3% 0;
+    display: flex;
+    justify-content: flex-end;
+}
+#lsignup{
+    margin:5%;
+    padding:2% 5%;
+    display:flex;
+    justify-content: flex-end;
+    background-color: crimson;
+    border:none;
+    outline:none;
+    font-weight:bold;
+    color:var(--white);
+    cursor: pointer;
+}
+.sg_fr{
+    width:100%;
+    text-align:center;
+}
+.sg_sg{
+    width:100%;
+    margin:5% 0;
+    text-align:center;
+}
+.sg_sg a{
+    font-weight:bold;
+}
+#sgemail,#sgpass{
+    position: relative;
+}
+.int_sgemail,.int_sgpass{
+    position: absolute;
+    margin:0.4%;
+    z-index:50;
+}
+/* Signup Modal End */
+
+/* Instructor Header Start  */
+header{
+    width:100%;
+    height:70px;
+    box-shadow:1px 1px 5px 3px #ddd;  
+}
+.inst_header{
+    width:100%;
+    height:100%;
+    padding:0 3%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.web_ttl{
+    font-weight:700;
+    font-size:2rem;
+    cursor: pointer;
+    color:black;
+}
+.inst_logout{
+    font-weight:bold;
+    color:crimson;
+    padding:0.5% 1%;
+    background-color:pink;
+    border-radius:5px;
+    cursor: pointer;
+}
+.inst_bars,#bars{
+    display:none;
+}
+
+
+/* Instructor Header End  */
+
+
+/* Sidebar Start */
+.sidebar{
+    width:20%;
+    min-width:310px;
+    min-height:calc(100vh - 70px);
+    padding:3% 2%;
+    background-color:crimson;
+}
+.sidebar_opt{
+    font-weight:600;
+    font-size:1.1rem;
+    padding:3% 5%;
+    margin:2%;
+    color:var(--white);
+    background-color:var(--btn-clr);
+    border-radius:3px;
+    cursor: pointer;
+}
+
+.mobsid{
+    display:block !important; 
+    position: absolute;
+    z-index: 10001;
+    width: 100vw;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+/* Sidebar End */
+
+/* Dashboard Start  */
+
+.dash{
+    width:80%;
+    height:100%;
+}
+
+/* Section 1 Start  */
+
+.dash_sec1{
+    width:100%;
+    min-height:300px;
+    height:auto;
+    /* background-color:blue; */
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.dash_sec1_box{
+    width:250px;
+    height:250px;
+    margin:3% 2%;
+    border-radius:5px;
+    background: chartreuse;
+}
+.tx-ct{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-weight:bold;
+}
+.dash_sec1_box_ttl{
+    width:100%;
+    height:50px;
+    font-size:1.5rem;
+    border-radius:5px 5px 0 0;
+    background-color:orange;
+}
+.dash_sec1_box_bdy{
+    width:100%;
+    height:150px;
+}
+.dash_sec1_no{
+    padding:3%;
+    background-color:violet;
+    border-radius:5px;
+    min-width: 100px;
+    text-align: center;
+}
+.dash_sec1_box_vw{
+    width:100%;
+    height:50px;
+    border-radius:0 0 5px 5px;
+    background-color:pink;
+    cursor: pointer;
+}
+/* Section 1 End  */
+
+/* Section 2 Start  */
+
+/* .dash_sec2{
+
+} */
+
+/* Section 2 End  */
+
+/* Dashboard End  */
+
+
+
+/*Create Courses Section Start  */
+
+.inst_crs_sec1{
+    width:80%;
+    height:100%;
+    margin:4%;
+    border-radius:5px;
+    background-color:var(--light-white);
+}
+.inst_crs_sec1_ttl{
+    width:100%;
+    padding:1%;
+    font-weight:600;
+    font-size:1.3rem;
+    border-radius:5px 5px 0 0;
+    background-color:var(--cream2);
+}
+.inst_crs_sec1_bdy{
+    padding:1%;
+}
+.inst_crs{
+    width:100%;
+    margin:1% 0;
+}
+.inst_crs_inpt{
+    width:100%;
+    padding:0.5%;
+    border-radius:5px;
+    outline:none;
+    border:1px solid var(--cream);
+    font-size:1.2rem;
+}
+
+/* Course Banner Section Start */
+
+
+.inst_selection{
+    flex:1;
+}
+.inst_crs_lang,.inst_crs_file{
+    padding:1%;
+    font-size:1rem;
+    background-color:var(--white);
+}
+.inst_crs_lang{
+    min-width:200px;
+    width:100%;
+}
+
+/* Course Banner Section End */
+
+/* Course Desc Section Start  */
+
+.inst_add_btn{
+    float:right;
+    padding:0.5% 2%;
+    margin:1%;
+    font-size:1.1rem;
+    border-radius:4px;
+    background-color:greenyellow;
+    cursor: pointer;
+}
+
+/* Course Desc Section End  */
+
+/* Course Details Section Start  */
+
+.inst_crs_det{
+    width:100%;
+    margin:1% 0;
+    display:flex;
+    flex-wrap: wrap;
+}
+.inst_details_Sec{
+    flex:1;
+}
+.inst_crs_inpt_det{
+    padding:0.5%;
+    margin:1% 0;
+    border-radius:5px;
+    outline:none;
+    border:1px solid var(--cream);
+    font-size:1.2rem;
+}
+
+.inst_crs_det_lbl{
+    display:block;
+    margin:1% 0;
+}
+#inst_crs_prc,#inst_crs_org_prc{
+    width:90%;
+}
+
+
+.inst_crs_det2{
+    width:100%;
+    margin:1% 0;
+}
+.inst_crs_det3{
+    width:50%;
+    margin:1% 0;
+}
+.inst_crs_file2{
+    padding:0.5%;
+    font-size:0.8rem;
+    background-color:var(--white);
+}
+
+
+/* Course Details Section End  */
+
+/* Course Buttons Section Start   */
+
+.inst_crs_btn{
+    margin-top:7%;
+    display:flex;
+    justify-content: flex-end;
+    width:100%;
+}
+.inst_crs_rst_btn{
+    background-color:crimson;
+}
+.inst_crs_crt_btn{
+    background-color:greenyellow;
+}
+.inst_crs_btns{
+    padding:1% 2%;
+    margin:1% 2%;
+    border-radius:5px;
+    cursor: pointer;
+    outline: none;
+    border:none;
+}
+
+/* Course Buttons Section End   */
+
+
+/*Create Courses Section End  */
+
+
+/* Courses Section Start  */
+
+.crs_h{
+    font-size:1.5rem;
+    font-weight:bold;
+    margin:5%;
+}
+.course_sec{
+    width:90%;
+    padding:1%;
+    margin:5% auto;
+    background-color:var(--light-white);
+    border-radius: 5px;
+    display:flex;
+}
+.crs_img{
+    width:100px;
+    height:60px;
+}
+.crs_name{
+    margin:1% auto 1% 2%;
+    font-weight: bold;
+    font-size:1.3rem;
+}
+.crs_add_lectures,.crs_edit{
+    padding:1%;
+    margin:1%;
+    background-color:var(--btn-clr);
+    color:var(--white);
+    font-weight: bold;
+    border-radius:5px;
+}
+.crs_delete{
+    padding:1%;
+    margin:1%;
+    background-color:crimson;
+    color:var(--white);
+    font-weight: bold;
+    border-radius:5px;
+}
+
+
+/* Courses Section End */
+
+
+/* Add Lectures Section Start */
+.uform,.dform{
+    width:120%;
+}
+.add_lect{
+    font-weight:700;
+    margin-top:20px;
+    padding:10px 20px;
+    background-color:greenyellow;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    float:right;
+    border-radius:5px;
+}
+.delete_lect{
+    font-weight:700;
+    padding:8px 17px;
+    background-color:crimson;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    border-radius:5px;
+}
+.update_lect{
+    font-weight:700;
+    padding:8px 17px;
+    background-color:greenyellow;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    border-radius:5px;
+}
+
+/* Add Lectures Section End */
+
+
+
+
+
+/* Students Section Start  */
+
+.student_details{
+    margin:5%;
+}
+.student_details2{
+    margin:5%;
+}
+.stu_d_h{
+    margin-bottom:20px;
+    font-size:1.5rem;
+    font-weight:bold;
+}
+.stu_d_tb th, td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.stu_d_tb{
+    border-collapse: collapse;
+    width: 100%;
+}
+.stu_d_th{
+    background-color: var(--cream);
+}
+.stu_d_td{
+    text-align:center;
+    background-color: var(--cream2);
+}
+.stu_d_th2{
+    width:30%;
+    background-color: var(--cream);
+}
+.stu_d_tdd2{
+    width:70%;
+    background-color: var(--cream);
+}
+#stu_d_tb tr:nth-child(even){background-color: #f2f2f2;}
+
+#stu_d_tb tr:hover {background-color: #ddd;}
+
+/* Students Section End  */
+
+
+/* Payments Section Start  */
+
+.pay_det_box{
+    margin:5%;
+    text-align: center;
+}
+.pay_id_inp{
+    position: relative;
+    border-radius:5px;
+    background-color:var(--cream);
+    font-size:1.2rem;
+    font-weight:700;
+    border:1px solid #ddd;;
+    outline:none;
+    padding:5px 30px;
+}
+#pay_ic{
+    position: absolute;
+    z-index:100;
+    margin:2px;
+    font-size:2rem;
+    color:crimson;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* Payments Section End  */
+
+/* Account Settings Start  */
+
+.int_acc_set{
+    margin:5%;
+}
+.int_acc_set_ttl{
+    font-size:2rem;
+    font-weight:700;
+    text-align:center;
+    line-height:80px;
+    height:80px;
+    width:100%;
+    border-bottom:2px solid #ddd;
+}
+.int_set_ul{
+    display: flex;
+    flex-direction: column;
+}
+.int_set_a{
+    font-size:1.2rem;
+    padding:3px 5px;
+}
+.int_set_a_act{
+    background-color:var(--text-color);
+    color:var(--light-white);
+}
+
+.int_acc_set_bdy{
+    margin:20px 0;
+}
+.int_acc_f{
+    width:70%;
+    margin:10px auto;
+}
+.int_f_inp{
+    width:100%;
+    padding:5px;
+    font-size:1.2rem;
+    outline:none;
+    border:1px solid #ddd;
+}
+
+.int_acc_set_sbtn{
+    font-size:1.2rem;
+    font-weight:650;
+    background-color:crimson;
+    color:var(--white);
+    border:none;
+    outline:none;
+    float:right;
+    padding:5px;
+    margin-right:5%;
+    cursor: pointer;
+    border-radius:5px;
+}
+/* Account Settings End  */
+
+/* Payments Start  */
+.print_btn{
+    padding:10px 20px;
+    font-weight: 700;
+    color:var(--light-white);
+    background-color:crimson;
+    border-radius:5px;
+    float:right;
+    margin:10px 0;
+    outline:none;
+    cursor: pointer;
+    border:none;
+}
+/* Payments  End  */
+
+.stu_acc_set_r{
+    width:80%;
+    margin:5% auto;
+}
+.stu_acc_set_ttl{
+    font-size:2rem;
+    font-weight:700;
+    text-align:center;
+    line-height:80px;
+    height:80px;
+    width:100%;
+    border-bottom:2px solid #ddd;
+}
+.stu_set_ul{
+    display: flex;
+    flex-direction: column;
+}
+.stu_set_a{
+    font-size:1.2rem;
+    padding:3px 5px;
+}
+.stu_set_a_act{
+    background-color:var(--text-color);
+    color:var(--light-white);
+}
+
+.stu_acc_set_bdy{
+    margin:20px 0;
+}
+.stu_acc_f{
+    width:70%;
+    margin:10px auto;
+}
+.stu_f_inp{
+    width:100%;
+    padding:5px;
+    font-size:1.2rem;
+    outline:none;
+    border:1px solid #ddd;
+}
+
+.stu_acc_set_sbtn{
+    font-size:1.2rem;
+    font-weight:650;
+    background-color:crimson;
+    color:var(--white);
+    border:none;
+    outline:none;
+    float:right;
+    padding:5px;
+    margin-right:5%;
+    cursor: pointer;
+    border-radius:5px;
+}
+.cls_acc_bdy{
+    width:70%;
+    margin:5% auto;
+}
+
+
+/*----------------------------------------- Responsive Design Settings Start ------------------------------ */
+
+
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) { 
+.sidebar{
+    width:25%;
+}
+.dash{
+    width:75%;
+}
+.inst_crs_sec1{
+    width:90%;
+}
+}
+@media (max-width: 860px){
+
+}
+@media (max-width: 768px) {
+
+.inst_logout{
+    display: none;
+}
+
+.inst_bars{
+    display:block;
+    font-size:1.5rem;
+}
+#bars{
+    display:block;
+}
+.sidebar{
+    display: none;
+}
+.dash{
+    width:100%;
+}
+
+}
+
+@media (max-width: 576px) {
+
+}
+
+
+ /*----------------------------------------- Responsive Design Settings End ------------------------------ */

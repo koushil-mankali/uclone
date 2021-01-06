@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'SF Pro Text','BlinkMacSystemFont','Roboto','Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+}
+/* --------------------- Universal Settings Start ------------------------  */
+:root{
+    --white:#FFFFFF;
+    --light-white:#FBFBF8;
+    --title-color:#3C3B37;
+    --text-color:#73726c;
+    --btn-clr:#0f7c90;
+    --btn-hover-clr:#094C59;
+    --tomato:#FF6347;
+    --stblack:#1E1E1C;
+    --cream:#dcdacb;
+    --light-gold:#eb8a2f;
+    --cream2:#f1f1ea;
+}
+a{
+    text-decoration:none;
+    color:#8ed1dc;
+}
+li{
+    list-style: none;
+}
+.bst_seller{
+    padding:4px;
+    background-color: #FFE799;
+    color:#593d00;
+    font-weight:bold;
+    border-radius:5px;
+}
+.hr{
+    border:0.1px solid var(--text-color);
+}
+body{
+    background-color: var(--cream2);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.hide{
+    display:none;
+}
+.show{
+    display: block;
+}
+.msg{
+    width:100%;
+    padding:5px;
+    margin-top:4px;
+    background-color: green;
+    color:var(--white);
+    border-radius:5px;
+}
+.err{
+    width:100%;
+    padding:5px;
+    margin-top:4px;
+    background-color: red;
+    color:var(--white);
+    border-radius:5px;
+}
+/* --------------------- Universal Settings End ------------------------  */
+
+/* Close_Acc Section Start  */
+.cls_bck{
+    background-color: var(--cream2);
+    display:flex;
+    justify-content: center;
+}
+.msg_box{
+    margin-top:10%;
+    font-size:1.3rem;
+    font-weight:700;
+}
+/* Close_Acc Section End  */
