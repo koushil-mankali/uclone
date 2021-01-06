@@ -45,17 +45,17 @@ and many more features like Udemy.
 <div id="instructors_features"></div>
 <h2>Instructors Features :</h2>
 
--> Instructor has there own dashboard where they get options like :
-	1) Dashboard       ---  Main Dashboard
-	2) Create Course   ---  Instructor can create course in this section.
-	3) Courses		   ---	All the Courses of instructor will be avaliable here, from here instructor can ...
-							a) Edit Course.
-							b) Add Lectures(Videos) and Sections of the Course.
-							c) Edit Lecture Details.
-	4) Students        ---  All the students basic details who are enrolled for this instructor courses.
-	5) Payments		   ---  Payment details of the students (like payment id, transaction success/failure, name of the student etc...).
-	6) Settings		   ---  All the account settings like name, email, password, description and profile pic (here instructor can change there details also).
-	7) Close Account   ---  If want instructor can close there account permantly by checking the mark and clicking the delete account button.
+-> Instructor has there own dashboard where they get options like :<br />
+	1) Dashboard       ---  Main Dashboard<br />
+	2) Create Course   ---  Instructor can create course in this section.<br />
+	3) Courses		   ---	All the Courses of instructor will be avaliable here, from here instructor can ...<br />
+							a) Edit Course.<br />
+							b) Add Lectures(Videos) and Sections of the Course.<br />
+							c) Edit Lecture Details.<br />
+	4) Students        ---  All the students basic details who are enrolled for this instructor courses.<br />
+	5) Payments		   ---  Payment details of the students (like payment id, transaction success/failure, name of the student etc...).<br />
+	6) Settings		   ---  All the account settings like name, email, password, description and profile pic (here instructor can change there details also).<br />
+	7) Close Account   ---  If want instructor can close there account permantly by checking the mark and clicking the delete account button.<br />
 	
 Dashboard :
 
@@ -72,15 +72,15 @@ Payments :
 <div id="user_features"></div>
 <h2>Users Features :</h2>
 	
--> User has there own dashboard where they get options like :
-	1) Dashboard       ---  Main Dashboard where all the enrolled courses will be there.
-	2) Payments		   ---  Payment details of the courses they have purchased.
-	3) Settings		   ---  All the account settings like name, email, password, description and profile pic (here user can change there details also).
-	4) Close Account   ---  If want user can close there account permantly by checking the mark and clicking the delete account button.
-	5) <strong>Videos Section</strong> --- when a user want to watch course lectures then can 
-										a)Go to there dashboard where they can find there courses.
-										b)Click on the course then they will be redirected to videos section.
-										c) Here they can find there course video lectures section wise.
+-> User has there own dashboard where they get options like :<br />
+	1) Dashboard       ---  Main Dashboard where all the enrolled courses will be there.<br />
+	2) Payments		   ---  Payment details of the courses they have purchased.<br />
+	3) Settings		   ---  All the account settings like name, email, password, description and profile pic (here user can change there details also).<br />
+	4) Close Account   ---  If want user can close there account permantly by checking the mark and clicking the delete account button.<br />
+	5) <strong>Videos Section</strong> --- when a user want to watch course lectures then can <br />
+										a)Go to there dashboard where they can find there courses.<br />
+										b)Click on the course then they will be redirected to videos section.<br />
+										c) Here they can find there course video lectures section wise.<br />
 	
 ==> User can search the courses and purchase the course they are willing to learn by just searching the course in search bar or exploring courses by category wise in the category pages.
 
@@ -127,17 +127,17 @@ database: MySQL.
 <div id="how_to_use"></div>
 <h2>How to use this Project :</h2>
 
-->First you have need to do some changes in the file / add some details which are mentioned below.
+->First you have need to do some changes in the file / add some details which are mentioned below.<br />
 
 1)As this project has EMail conformation feature which uses SMTP you need a mail account so you have to add you'r mail id details in required file to run SMTP feature.
 
 ->Add you'r email account details in 
 
-a)signup.php  // line no. 46,47
-b)instructor/signup.php  //line no. 46,47
+a)signup.php  // line no. 46,47 <br />
+b)instructor/signup.php  //line no. 46,47 <br />
 
-2) Now as we use Paytm payment gateway in this project we need to specify paytm merchant account details in the file "database/keys.php".
-It is (keys.php) is imported in paytm gateway file so you have to mention you'r merchant id and key here and it will be automatically be imported to paytm gatway file.
+2) Now as we use Paytm payment gateway in this project we need to specify paytm merchant account details in the file "database/keys.php".<br />
+It is (keys.php) is imported in paytm gateway file so you have to mention you'r merchant id and key here and it will be automatically be imported to paytm gatway file.<br />
 
 3) To get some sample data in you'r course videos section replicate the video file in "videos folder" with following names (dont forget to provied exact .m4v extension as it is saved in database as .m4v).
 
