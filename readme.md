@@ -45,7 +45,7 @@ and many more features like Udemy.
 <div id="instructors_features"></div>
 <h2>Instructors Features :</h2>
 
--> Instructor has there own dashboard where they get options like :<br />
+-> Instructor has there own dashboard where they get options like :<br /> <br />
 	1) Dashboard       ---  Main Dashboard<br />
 	2) Create Course   ---  Instructor can create course in this section.<br />
 	3) Courses		   ---	All the Courses of instructor will be avaliable here, from here instructor can ...<br />
@@ -72,15 +72,15 @@ Payments :
 <div id="user_features"></div>
 <h2>Users Features :</h2>
 	
--> User has there own dashboard where they get options like :<br />
+-> User has there own dashboard where they get options like :<br /> <br />
 	1) Dashboard       ---  Main Dashboard where all the enrolled courses will be there.<br />
 	2) Payments		   ---  Payment details of the courses they have purchased.<br />
 	3) Settings		   ---  All the account settings like name, email, password, description and profile pic (here user can change there details also).<br />
 	4) Close Account   ---  If want user can close there account permantly by checking the mark and clicking the delete account button.<br />
 	5) <strong>Videos Section</strong> --- when a user want to watch course lectures then can <br />
-										a)Go to there dashboard where they can find there courses.<br />
-										b)Click on the course then they will be redirected to videos section.<br />
-										c) Here they can find there course video lectures section wise.<br />
+	&nbsp;	&nbsp;&nbsp;nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	a)Go to there dashboard where they can find there courses.<br />
+	&nbsp;	&nbsp;&nbsp;nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	b)Click on the course then they will be redirected to videos section.<br />
+	&nbsp;	&nbsp;&nbsp;nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	c) Here they can find there course video lectures section wise.<br />
 	
 ==> User can search the courses and purchase the course they are willing to learn by just searching the course in search bar or exploring courses by category wise in the category pages.
 
